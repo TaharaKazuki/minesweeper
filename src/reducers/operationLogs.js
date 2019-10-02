@@ -3,9 +3,10 @@ import {
   DELETE_ALL_OPERATION_LOGS
 } from '../actions'
 
-const operationLogs = (state =[], action) => {
+const operationLogs = (state = [], action) => {
   switch(action.type) {
     case ADD_OPERATION_LOG:
+      console.info('action', action)
       const operationLog = {
         description: action.description,
         operatedAt: action.operatedAt
