@@ -9,7 +9,7 @@ import reducer from '../reducers'
 const APP_SET = 'appSet'
 
 const App = () => {
-  const appStorage = localStorage.get(APP_SET)
+  const appStorage = localStorage.getItem(APP_SET)
 
   const initialState = appStorage ? JSON.parse(appStorage) : {
     events: [],
