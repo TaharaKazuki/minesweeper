@@ -47,7 +47,24 @@ app.post('/todos', (req, res) => {
   return res.send(todo)
 })
 
-// app.patch('/todos/:id', (req, res) => )
+app.patch('/todos/:id', (req, res) => {
+  const id = req.params.id
+  const index = todos.findIndex((todo) => todo.id === id)
+  const completed = Boolean(req.body.completed)
+  if (index > -1) {
+    todos[index].completed = completed
+  }
+  return res.send(todos[index])
+})
+
+app.delete('/todos/:id', (req, res) => {
+  const id = req.params.id
+  const index = todos.findIndex((todo) => todo.id === id)
+  if (index > -1) {
+    todos.splice(index, 1)
+  }
+  res.send(todos)
+})
 
 const PORT = 7000
 
