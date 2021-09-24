@@ -17,7 +17,7 @@ const TodoItem = ({ id, title, completed }) => {
   const handleDelete = () => {
     dispatch(
       deleteTodo({
-        id
+        id: id
       })
     )
   }
