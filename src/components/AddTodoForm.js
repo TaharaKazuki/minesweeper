@@ -15,9 +15,11 @@ const AddTodoForm = () => {
         className="form-control mb-2 mr-sm-2"
         placeholder="Add todo..."
         value={value}
-        onChange={(event) => setValue(event.target.value)}  
+        onChange={(event) => setValue(event.target.value)}
       />
-      <button type="submit" className="btn btn-primary mb-2">Submit</button>
+      <button type="submit" className="btn btn-primary mb-2">
+        Submit
+      </button>
     </form>
   )
 }
