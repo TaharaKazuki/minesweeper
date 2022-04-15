@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/TaharaKazuki/minesweeper/issues"
   },
-  "homepage": "https://github.com/TaharaKazuki/minesweeper#readme"
+  "homepage": "https://github.com/TaharaKazuki/minesweeper#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
 }
