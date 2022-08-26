@@ -1,0 +1,36 @@
+{
+  "name": "minesweeper",
+  "version": "1.0.0",
+  "description": "Minesweeper game",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaharaKazuki/minesweeper.git"
+  },
+  "keywords": [
+    "React",
+    "Redux"
+  ],
+  "author": "Tahara Kazuki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TaharaKazuki/minesweeper/issues"
+  },
+  "homepage": "https://github.com/TaharaKazuki/minesweeper#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.35.1",
+    "eslint": "^8.22.0",
+    "eslint-config-standard-with-typescript": "^22.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.5",
+    "eslint-plugin-promise": "^6.0.1",
+    "eslint-plugin-react": "^7.31.0",
+    "typescript": "^4.8.2"
+  }
+}
