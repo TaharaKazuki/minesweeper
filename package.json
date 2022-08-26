@@ -25,6 +25,7 @@
   "homepage": "https://github.com/TaharaKazuki/minesweeper#readme",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.35.1",
+    "babel-loader": "^8.2.5",
     "eslint": "^8.22.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard-with-typescript": "^22.0.0",
@@ -35,5 +36,11 @@
     "eslint-plugin-react": "^7.31.0",
     "prettier": "^2.7.1",
     "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "@babel/core": "^7.18.13",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6"
   }
 }
